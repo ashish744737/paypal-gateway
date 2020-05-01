@@ -7,26 +7,26 @@ Please follow the steps to run the above project.If you want integration details
     git clone https://github.com/ashish744737/paypal-gateway.git
 3. Go to project folder and within project open cmd and update composer : <br>
     update composer
-4. Create <b>.env</b> in root directory same as <b>.env.example</b> and set <b>APP_URL=http://localhost/paypal-gateway</b> or as per your    localhost environment.<br>
+4. Create <b>.env</b> in root directory same as <b>.env.example</b> and set <b>APP_URL=http://localhost/paypal-gateway</b> or as per        your localhost environment.<br>
 5.Generate <b>APP_KEY</b> by using following command.<br>
-    php artisan key:generate
+    <b>php artisan key:generate</b><br>
 6.Go to .env file and set database details <br>
-    DB_CONNECTION=mysql<br>
-    DB_HOST=127.0.0.1<br>
-    DB_PORT=3306<br>
-    DB_DATABASE=database name<br>
-    DB_USERNAME=database username<br>
-    DB_PASSWORD=database password<br>
-7.Go to Config/paypal.php and add your paypal creadentials also you add paypal sandbox details in .env file as follows: <br>
-    PAYPAL_MODE=sandbox<br>
-    PAYPAL_SANDBOX_API_USERNAME=<br>
-    PAYPAL_SANDBOX_API_PASSWORD=<br>
-    PAYPAL_SANDBOX_API_SECRET=<br>
-    PAYPAL_CURRENCY=INR<br>
-    PAYPAL_SANDBOX_API_CERTIFICATE=<br>
+    <b>DB_CONNECTION=mysql</b><br>
+    <b>DB_HOST=127.0.0.1</b><br>
+    <b>DB_PORT=3306</b><br>
+    <b>DB_DATABASE=database name</b><br>
+    <b>DB_USERNAME=database username</b><br>
+    <b>DB_PASSWORD=database password</b><br>
+7.Go to <b>Config/paypal.php</b> and add your paypal creadentials also you add paypal sandbox details in <b>.env</b> file as follows: <br>
+    <b>PAYPAL_MODE=sandbox</b><br>
+    <b>PAYPAL_SANDBOX_API_USERNAME=</b><br>
+    <b>PAYPAL_SANDBOX_API_PASSWORD=</b><br>
+    <b>PAYPAL_SANDBOX_API_SECRET=</b><br>
+    <b>PAYPAL_CURRENCY=INR</b><br>
+    <b>PAYPAL_SANDBOX_API_CERTIFICATE=</b><br>
 8.Now you can run your project.
 <hr>
-Ashish Avinash Pasekar<br>
+<b>Ashish Avinash Pasekar</b><br>
 ashish.pasekar@gmail.com
     
     
