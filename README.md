@@ -18,7 +18,7 @@ If you want integration details please read <b>"users guide.xlxs"</b> file which
     <b>DB_DATABASE=database name</b><br>
     <b>DB_USERNAME=database username</b><br>
     <b>DB_PASSWORD=database password</b><br>
-7. Go to <b>Config/paypal.php</b> and add your paypal creadentials also you add paypal sandbox details in <b>.env</b> file as follows: <br>
+7. Go to <b>Config/paypal.php</b> and add your paypal creadentials also you can add paypal sandbox details in <b>.env</b> file as follows: <br>
     <b>PAYPAL_MODE=sandbox</b><br>
     <b>PAYPAL_SANDBOX_API_USERNAME=</b><br>
     <b>PAYPAL_SANDBOX_API_PASSWORD=</b><br>
