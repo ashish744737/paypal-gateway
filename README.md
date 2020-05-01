@@ -1,4 +1,4 @@
-# Paypal Integration in laravel 5.8
+# PayPal Payment Gateway Integration in laravel 5.8
 <hr>
 Please follow the steps to run the above project.<br>
 If you want integration details please read <b>"users guide.xlxs"</b> file which describes about packages and installation process.<br><hr>
