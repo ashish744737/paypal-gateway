@@ -5,9 +5,9 @@ If you want integration details please read <b>"users guide.xlxs"</b> file which
 
 1. Copy the clone link or you can download zip. <br>
 2. Go to xampp/htdocs open cmd window nad type below command : <br>
-    git clone https://github.com/ashish744737/paypal-gateway.git
+    <b>git clone https://github.com/ashish744737/paypal-gateway.git</b>
 3. Go to project folder and within project open cmd and update composer : <br>
-    update composer
+    <b>update composer</b>
 4. Create <b>.env</b> in root directory same as <b>.env.example</b> and set <b>APP_URL=http://localhost/paypal-gateway</b> or as per        your localhost environment.<br>
 5. Generate <b>APP_KEY</b> by using following command.<br>
     <b>php artisan key:generate</b><br>
